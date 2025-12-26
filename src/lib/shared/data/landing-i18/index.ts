@@ -1,7 +1,6 @@
 
 import navigationEN from './navigation/en.ts';
 import navigationRU from './navigation/ru.ts';
-import navigationDE from './navigation/de.ts';
 import navigationPL from './navigation/pl.ts';
 
 
@@ -18,12 +17,7 @@ import footerRU from "./footer/ru.ts";
 import ctaRU from "./cta/ru.ts";
 import faqRU from "./faq/ru.ts";
 import headerRU from "./header/ru.ts";
-// German
-import heroDE from "./hero/de.ts";
-import footerDE from "./footer/de.ts";
-import ctaDE from "./cta/de.ts";
-import faqDE from "./faq/de.ts";
-import headerDE from "./header/de.ts";
+
 // polish
 import heroPL from "./hero/pl.ts";
 import footerPL from "./footer/pl.ts";
@@ -35,7 +29,6 @@ export {
   // navigation
   navigationEN,
   navigationRU,
-  navigationDE,
   navigationPL,
 
   // English
@@ -51,13 +44,6 @@ export {
   ctaRU,
   faqRU,
   headerRU,
-
-  // German
-  heroDE,
-  footerDE,
-  ctaDE,
-  faqDE,
-  headerDE,
 
   // Polish
   heroPL,

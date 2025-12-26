@@ -2,22 +2,22 @@ import type { BaseTranslation } from '../i18n-types';
 import {} from '../../lib/shared/data/uni-i18';
 import {} from '../../lib/shared/data/app-i18';
 import {
-	navigationRu,
-	footerRu,
-	ctaRu,
-	heroRu,
-	faqRu,
-	headerRu
+	navigationRU,
+	footerRU,
+	ctaRU,
+	heroRU,
+	faqRU,
+	headerRU
 } from '../../lib/shared/data/landing-i18';
 
-const ru = {
-	navigation: navigationRu,
-	footer: footerRu,
-	hero: heroRu,
-	cta: ctaRu,
-	faq: faqRu,
-	header: headerRu,
+const RU = {
+	navigation: navigationRU,
+	footer: footerRU,
+	hero: heroRU,
+	cta: ctaRU,
+	faq: faqRU,
+	header: headerRU,
 	app: {}
 } satisfies BaseTranslation;
 
-export default ru;
+export default RU;
