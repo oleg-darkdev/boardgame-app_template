@@ -1,18 +1,14 @@
 import type { BaseTranslation } from '../i18n-types';
-import {
-	
-} from '../../lib/shared/uni-i18/data';
-import {
-	
-} from '../../lib/shared/app-i18/data';
+import {} from '../../lib/shared/data/uni-i18';
+import {} from '../../lib/shared/data/app-i18';
 import {
 	navigationEn,
 	footerEn,
 	ctaEn,
 	heroEn,
 	faqEn,
-	headerEn,
-} from '../../lib/shared/landing-i18/data';
+	headerEn
+} from '../../lib/shared/data/landing-i18';
 
 const en = {
 	navigation: navigationEn,
@@ -21,9 +17,7 @@ const en = {
 	cta: ctaEn,
 	faq: faqEn,
 	header: headerEn,
-	app: {
-
-	}
+	app: {}
 } satisfies BaseTranslation;
 
 export default en;
